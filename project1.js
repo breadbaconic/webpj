@@ -23,6 +23,11 @@ function clickLogin() {
 	document.location.href="login.html";
 }
 
+/* add link to the button */
+function clickFabu() {
+	document.location.href="main.html"
+}
+
 /* check username in the register page */
 function checkUsrname() {
 	var username = document.getElementById("username").value;
@@ -40,7 +45,9 @@ function checkUsrname() {
 	} else {
 		war.innerHTML = "";
 		war.style.visibility = "hidden";
+		return true;
 	}
+	return false;
 }
 
 /* check nick name in the register page */
@@ -56,7 +63,9 @@ function checkNickname() {
 	} else {
 		war.innerHTML = "";
 		war.style.visibility = "hidden";
+		return true;
 	}
+	return false;
 }
 
 /* check password in the register page */
@@ -80,7 +89,9 @@ function checkPassword1() {
 	} else {
 		war.innerHTML = "";
 		war.style.visibility = "hidden";
+		return true;
 	}
+	return false;
 }
 
 /* check password again in the register page*/
@@ -94,7 +105,9 @@ function checkPassword2() {
 	} else {
 		war.innerHTML = "";
 		war.style.visibility = "hidden";
+		return true;
 	}
+	return false;
 }
 
 /* check come from in the register page*/
@@ -107,7 +120,9 @@ function checkCome() {
 	} else {
 		war.innerHTML = "";
 		war.style.visibility = "hidden";
+		return true;
 	}
+	return false;
 }
 
 /* check real name in the register page*/
@@ -120,7 +135,9 @@ function checkName() {
 	} else {
 		war.innerHTML = "";
 		war.style.visibility = "hidden";
+		return true;
 	}
+	return false;
 }
 
 /* check identity card number in the register page*/
@@ -133,7 +150,18 @@ function checkID() {
 	} else {
 		war.innerHTML = "";
 		war.style.visibility = "hidden";
+		return true;
 	}
+	return false;
+}
+
+/* check whether the user has written all information */
+function checkRegister() {
+	if (checkUsrname() && checkNickname() && checkPassword1() && checkPassword2() && checkCome() && checkName() && checkID()) {
+		return true;
+	}
+	alert("请正确填写必要的信息！");
+	return false;
 }
 
 /* check how many words written in the weibo */
