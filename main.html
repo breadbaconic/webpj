@@ -1,0 +1,199 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>我的首页 注目 - 妹子们来啦~</title>
+<link rel="stylesheet" type="text/css" href="project1.css" />
+<script src="project1.js"></script>
+</head>
+
+<body class="mainbody">
+<header class="mainheader">
+  <div class="mid">
+    <div class="headimg"> <img src="image/minilogo.png" alt="logo" /></div>
+    <a class="exit headlink" href="login.html">退出</a> <a class="option headlink" href="main.html">设置</a> <a class="username headlink" href="main.html" title="EspieSong">EspieSong</a>
+    <form action="#" method="get" class="search">
+      <input type="text" name="search" placeholder="Search..." class="searchtxt" />
+      <input type="submit" class="searchbtn" value="" />
+    </form>
+  </div>
+</header>
+<section class="contant mid mainbubble">
+  <div class="maintip">
+    <h2>发条微博，引人注目！</h2>
+  </div>
+  <section class="weibg">
+    <div class="writeboard">
+      <textarea class="writearea" id="wbwrite" rows="4" onKeyDown="checkInCount()" onKeyUp="checkInCount()"></textarea>
+      <div class="writefunc">
+        <button class="writebtn button whitebutton">发 布</button>
+        <div class="wordcount" id="wordcount">还可输入 14<strong>6</strong> 字</div>
+        <div class="writeac">表情</div>
+        <div class="writeac">图片</div>
+        <div class="writeac">视频</div>
+      </div>
+    </div>
+    <div class="mainweibg">
+      <div class="maintitle">
+        <h2>新 鲜 事</h2>
+        <h4>热点内容</h4>
+      </div>
+      <div class="plainwei">
+        <div class="weibocoimg"> <img src="face/10.jpg" alt="face"> </div>
+        <div class="name">BigFly</div>
+        <p class="content">热烈祝贺习近平当选为国家主席！</p>
+        <div class="subcontent weiname">
+          <div class="time">2013 - 3 - 14 21：05 </div>
+          <div class="origin">来自网页</div>
+          <div class="comment">评论</div>
+          <div class="comma">|</div>
+          <div class="forward">转发</div>
+        </div>
+      </div>
+      <div class="plainwei">
+        <div class="weibocoimg"> <img src="face/12.jpg" alt="face"> </div>
+        <div class="name">RP</div>
+        <p class="content">喜欢的球员 斯通 马步里都来cba了 就差埃迪库里和斯卡拉布莱恩了 嗷嗷嗷嗷嗷嗷啊啊</p>
+        <div class="subcontent weiname">
+          <div class="time">2013 - 3 - 13 13：05 </div>
+          <div class="origin">来自网页</div>
+          <div class="comment">评论</div>
+          <div class="comma">|</div>
+          <div class="forward">转发</div>
+        </div>
+        <div class="tranglearea">
+          <div class="trangle "></div>
+        </div>
+        <div class="commentbox">
+          <textarea class="commentarea" rows="3"></textarea>
+          <div class="commentfunc">
+            <div class="forwardcheck">
+              <input type="checkbox" name="forward" />
+              同时转发到我的微博</div>
+            <button class="commentbtn button whitebutton">评 论</button>
+          </div>
+        </div>
+      </div>
+      <div class="plainwei">
+        <div class="weibocoimg"> <img src="face/13.jpg" alt="face"> </div>
+        <div class="name">EasyGod</div>
+        <p class="content">季神V5！</p>
+        <div class="forwardtranglearea">
+          <div class="forwardtrangle"></div>
+        </div>
+        <div class="forwardbox">
+          <div class="name">@MornJ</div>
+          <p class="content">火箭比赛现场，季神一时兴起亲吻胖女神，未曾想却遭一记重重耳光，尴尬之余只好送火箭熊爆米花赔礼，可女神不买账，还把饮料倒在他头上。这时旁边美女看不下去了，起身主动向此男球迷献吻……</p>
+          <div class="weiimg"><img src="image/wei1.jpg" alt="wei1" /></div>
+          <div class="subcontent weiname">
+            <div class="time">2012 - 2 - 13 08：15 </div>
+            <div class="origin">来自网页</div>
+            <div class="comment">评论</div>
+            <div class="comma">|</div>
+            <div class="forward">转发</div>
+          </div>
+        </div>
+        <div class="subcontent weiname">
+          <div class="time">2013 - 2 - 23 11：05 </div>
+          <div class="origin">来自网页</div>
+          <div class="comment">评论</div>
+          <div class="comma">|</div>
+          <div class="forward">转发</div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <aside class="weiaside">
+    <div class="info">
+      <div class="infopic"> <img src="face/11.jpg" alt="face" /></div>
+      <p class="infoname">EspieSong</p>
+      <p class="infofrom">复旦大学</p>
+    </div>
+    <div class="stat">
+      <div class="statblk">
+        <p class="statnum">114</p>
+        <p class="statname">关注</p>
+      </div>
+      <div class="statblk">
+        <p class="statnum">9991</p>
+        <p class="statname">粉丝</p>
+      </div>
+      <div class="statblk rtst">
+        <p class="statnum">450</p>
+        <p class="statname">微博</p>
+      </div>
+    </div>
+    <div class="func">
+      <div class="funclink focus">我的首页</div>
+      <div class="funclink">我的评论</div>
+      <div class="funclink">修改头像</div>
+    </div>
+    <div class="topiclist">
+      <h3>可能感兴趣的妹子</h3>
+      <ul>
+        <li class="topicitem">波多野结衣</li>
+        <li class="topicitem">苍井空</li>
+        <li class="topicitem">吉泽明步</li>
+        <li class="topicitem">仓麻优</li>
+        <li class="topicitem">饭岛爱</li>
+        <li class="topicitem">刘雅诺</li>
+      </ul>
+    </div>
+    <div class="topiclist">
+      <h3>热门话题</h3>
+      <ul>
+        <li class="topicitem">看两会之稳定物价</li>
+        <li class="topicitem">冷空气又来袭</li>
+        <li class="topicitem">黄浦江惊险千头死猪</li>
+        <li class="topicitem">植树节晒绿色</li>
+        <li class="topicitem">复旦自主考又见神题</li>
+        <li class="topicitem">农业厅称死猪是冻死</li>
+      </ul>
+    </div>
+    <div class="topiclist">
+      <h3>热门用户</h3>
+    </div>
+    <div class="reuserlist">
+      <div class="reuserli" title="Espie">
+        <div class="reuserimg"> <img src="face/1.gif" alt="face" /> </div>
+        <div class="reusername">Espie</div>
+      </div>
+      <div class="reuserli" title="Song">
+        <div class="reuserimg"> <img src="face/2.jpeg" alt="face" /> </div>
+        <div class="reusername">Song</div>
+      </div>
+      <div class="reuserli" title="Bread">
+        <div class="reuserimg"> <img src="face/3.jpeg" alt="face" /> </div>
+        <div class="reusername">Bread</div>
+      </div>
+      <div class="reuserli" title="Baconic">
+        <div class="reuserimg"> <img src="face/4.jpeg" alt="face" /> </div>
+        <div class="reusername">Baconic</div>
+      </div>
+      <div class="reuserli" title="艾斯比">
+        <div class="reuserimg"> <img src="face/5.jpeg" alt="face" /> </div>
+        <div class="reusername">艾斯比</div>
+      </div>
+      <div class="reuserli" title="超级超级超级超级超级">
+        <div class="reuserimg"> <img src="face/6.jpeg" alt="face" /> </div>
+        <div class="reusername">超级超级超级超级超级</div>
+      </div>
+      <div class="reuserli" title="面包培根">
+        <div class="reuserimg"> <img src="face/7.jpeg" alt="face" /> </div>
+        <div class="reusername">面包培根</div>
+      </div>
+      <div class="reuserli" title="易神威武">
+        <div class="reuserimg"> <img src="face/8.jpeg" alt="face" /> </div>
+        <div class="reusername">易神威武</div>
+      </div>
+      <div class="reuserli" title="EasyGod">
+        <div class="reuserimg"> <img src="face/9.jpg" alt="face" /> </div>
+        <div class="reusername">EasyGod</div>
+      </div>
+    </div>
+  </aside>
+</section>
+<footer class="mid"> <a target="_blank" href="login.html">注目</a> | <a target="_blank" href="login.html">版权申明</a> | <a target="_blank" href="login.html">联系我们</a> | <a target="_blank" href="login.html">意见反馈</a> <br />
+  Copyright © 2013 VIEW. All Rights Reserved </footer>
+</body>
+</html>

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+
+<head>
+<meta charset="UTF-8" />
+<title>注目！- 妹子们来啦~~</title>
+<link rel="stylesheet" type="text/css" href="project1.css" />
+<script src="project1.js"></script>
+</head>
+
+<body>
+<header class="mid"> <img src="image/nlogo2.png" alt="logo" /> </header>
+<section class="contant mid">
+  <div class="slogan">
+    <div class="sloganpic"> <img src="image/slogan.jpg" alt="slogan" />
+      <div class="loginbg">
+        <button class="regbutton orangebutton button" onClick="clickReg()">立即加入注目</button>
+        <div class="logintable">
+          <div class="hinttip">登陆微博：</div>
+          <form action="main.html" method="post" onSubmit="return checkLogin()">
+            <input class="logintxt" type="text" name="user" value="" placeholder="输入账号" id="usernametxt" autofocus />
+            <br />
+            <input class="logintxt" type="password" name="password" value="" placeholder="输入密码" id="passwordtxt" />
+            <br />
+            <input class="loginbutton bluebutton button" type="submit" value="登 录" id="login"/>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="main">
+    <div class="reuser">
+      <div class="title">
+        <h3>最近加入：</h3>
+      </div>
+      <div class="reuserlist">
+        <div class="reuserli" title="Espie">
+          <div class="reuserimg"> <img src="face/1.gif" alt="face" /> </div>
+          <div class="reusername">Espie</div>
+        </div>
+        <div class="reuserli" title="Song">
+          <div class="reuserimg"> <img src="face/2.jpeg" alt="face" /> </div>
+          <div class="reusername">Song</div>
+        </div>
+        <div class="reuserli" title="Bread">
+          <div class="reuserimg"> <img src="face/3.jpeg" alt="face" /> </div>
+          <div class="reusername">Bread</div>
+        </div>
+        <div class="reuserli" title="Baconic">
+          <div class="reuserimg"> <img src="face/4.jpeg" alt="face" /> </div>
+          <div class="reusername">Baconic</div>
+        </div>
+        <div class="reuserli" title="艾斯比">
+          <div class="reuserimg"> <img src="face/5.jpeg" alt="face" /> </div>
+          <div class="reusername">艾斯比</div>
+        </div>
+        <div class="reuserli" title="超级超级超级超级超级">
+          <div class="reuserimg"> <img src="face/6.jpeg" alt="face" /> </div>
+          <div class="reusername">超级超级超级超级超级</div>
+        </div>
+        <div class="reuserli" title="面包培根">
+          <div class="reuserimg"> <img src="face/7.jpeg" alt="face" /> </div>
+          <div class="reusername">面包培根</div>
+        </div>
+        <div class="reuserli" title="易神威武">
+          <div class="reuserimg"> <img src="face/8.jpeg" alt="face" /> </div>
+          <div class="reusername">易神威武</div>
+        </div>
+        <div class="reuserli" title="EasyGod">
+          <div class="reuserimg"> <img src="face/9.jpg" alt="face" /> </div>
+          <div class="reusername">EasyGod</div>
+        </div>
+        <div class="reuserli" title="BigFly">
+          <div class="reuserimg"> <img src="face/10.jpg" alt="face" /> </div>
+          <div class="reusername">BigFly</div>
+        </div>
+        <div class="reuserli" title="MornJ">
+          <div class="reuserimg"> <img src="face/12.jpg" alt="face" /> </div>
+          <div class="reusername">MornJ</div>
+        </div>
+        <div class="reuserli" title="RP">
+          <div class="reuserimg"> <img src="face/13.jpg" alt="face" /> </div>
+          <div class="reusername">RP</div>
+        </div>
+      </div>
+      <p class="warning">根据<a href="http://news.ifeng.com/mainland/detail_2012_12/28/20637181_0.shtml">《全国人大常委会关于加强网络信息保护的决定》</a>要求，3月16日起未通过真实身份验证的用户将仅能使用浏览功能。</p>
+    </div>
+    <div class="collect">
+      <div class="title">
+        <h3>注目精选：</h3>
+      </div>
+      <div class="weiboco">
+        <div class="weibocoimg"> <img src="face/10.jpg" alt="face"> </div>
+        <p class="content"><b class="weiname">BigFly</b> 【民政部副部长：各地将建妇女儿童保护中心】全国政协委员、民政部副部长姜力透露，各地要建立儿童保护中心和妇女保护中心</p>
+        <p class="subcontent weiname">15分钟前</p>
+      </div>
+      <div class="weiboco">
+        <div class="weibocoimg"> <img src="face/12.jpg" alt="face"> </div>
+        <p class="content"><b class="weiname">MornJ</b> 【张明森委员谈雾霾：细微颗粒的罪魁祸首是油还是煤？】全国政协委员、中国石化北京化工研究院副总工程师张明森委说道</p>
+        <p class="subcontent weiname">22分钟前</p>
+      </div>
+      <div class="weiboco">
+        <div class="weibocoimg"> <img src="face/13.jpg" alt="face"> </div>
+        <p class="content"><b class="weiname">RP</b> 【宗庆后：北漂者应该回到家乡去 在那更容易受尊重】谈及80后北漂者该如何做出人生选择时，全国人大代表、哇哈哈集团董事长说道</p>
+        <p class="subcontent weiname">28分钟前</p>
+      </div>
+      <div class="weiboco">
+        <div class="weibocoimg"> <img src="face/9.jpg" alt="face"> </div>
+        <p class="content"><b class="weiname">Espie</b> 【Siri等虚拟助理会走向何方？】Siri，这个嗓音甜美的虚拟助手已伴随iPhone融入到了许多人的生活中。虽然任务引擎可以变得很好</p>
+        <p class="subcontent weiname">35分钟前</p>
+      </div>
+    </div>
+    <div class="rank">
+      <div class="title">
+        <div class="subtitle">粉丝数</div>
+        <h3>热门用户：</h3>
+      </div>
+      <ol class="topuser">
+        <li id="_1st"> <i class="number">3002132</i> <b class="name" title="Espie">Espie</b> </li>
+        <li id="_2nd"> <i class="number">2002132</i> <b class="name" title="Song">Song</b> </li>
+        <li id="_3rd"> <i class="number">1002132</i> <b class="name" title="Bread">Bread</b> </li>
+        <li id="_4th"> <i class="number">902132</i> <b class="name" title="Baconic">Baconic</b> </li>
+        <li id="_5th"> <i class="number">802132</i> <b class="name" title="艾斯比">艾斯比</b> </li>
+        <li id="_6th"> <i class="number">502132</i> <b class="name" title="超级超超级超级艾斯比的艾斯比">超级超超级超级艾斯比的艾斯比</b> </li>
+        <li id="_7th"> <i class="number">202132</i> <b class="name" title="面包培根">面包培根</b> </li>
+        <li id="_8th"> <i class="number">102132</i> <b class="name" title="易神威武">易神威武</b> </li>
+        <li id="_9th"> <i class="number">42132</i> <b class="name" title="EasyGod">EasyGod</b> </li>
+        <li id="_10th"> <i class="number">22132</i> <b class="name" title="BigFly">BigFly</b> </li>
+      </ol>
+    </div>
+  </div>
+</section>
+<footer class="mid"> <a target="_blank" href="login.html">注目</a> | <a target="_blank" href="login.html">版权申明</a> | <a target="_blank" href="login.html">联系我们</a> | <a target="_blank" href="login.html">意见反馈</a> <br />
+  Copyright © 2013 VIEW. All Rights Reserved </footer>
+</body>
+</html>
